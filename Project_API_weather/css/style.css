@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+}
+.header-weather{
+    text-align: center;
+    color: green;
+}
+.title h1{
+    color: #4caf50;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.weather-content{
+    display: flex;
+    flex-grow: 1;
+}
+.button-round{
+    margin-top: 15px;
+}
+.city-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.features, .features-1, .features-2{
+    list-style: none;
+    margin: 0;
+}
+.features-1{
+    padding: 15px;
+}
+.features-1 li{
+    margin: 0 0 5px;
+}
+
+.form-1{
+    margin-bottom: 15px;
+}
+.form-2{
+    display: none;
+}
